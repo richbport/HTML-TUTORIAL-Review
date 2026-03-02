@@ -1,7 +1,4 @@
-#title {
-  font-weight: bold;
-}
-
-#title {
-  font-weight: 400;
+section {
+  height: 80vh;
+  border: 1px solid black;
 }
