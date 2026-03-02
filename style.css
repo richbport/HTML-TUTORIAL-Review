@@ -1,6 +1,12 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"); */
+
 div {
-    width: 100%;
-    max-width: 200px;
-    height: 80vh;
-    background-color: rgba(0, 0, 0, 0.2);
+  /* font-size: 12px;
+  font-weight: 600;
+  font-family: "roboto", serif; */
+  width: 100%;
+  max-width: 200px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
 }
