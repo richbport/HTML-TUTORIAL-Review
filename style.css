@@ -2,6 +2,13 @@
   color: red;
 } */
 
-#test {
-  color: purple;
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border: 15px solid red;
+  padding: 15px 15px 15px 15px; /* like a clock */
+  /* or padding: 15px; if all sides are equal */
+  margin: 15px 15px 15px 15px;
+  box-sizing: content-box; /* better as border-box */
 }
