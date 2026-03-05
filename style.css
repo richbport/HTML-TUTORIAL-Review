@@ -6,5 +6,6 @@ div {
 .red {
   background-color: red;
   position: absolute;
+  width: 100%;
 }
 
