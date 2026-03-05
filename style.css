@@ -5,7 +5,7 @@ div {
 
 .red {
   background-color: red;
-  position: static;
-  top: 10px;
+  position: relative;
+  bottom: 10px;
 }
 
