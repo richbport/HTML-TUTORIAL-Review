@@ -1,4 +1,4 @@
-div::before{
-  content:" Frontend Simplified"
+div:hover{
+  background-color: rgba(0, 0, 0, 0.5)
 }
 
