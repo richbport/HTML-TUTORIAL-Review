@@ -7,10 +7,20 @@ div:hover{
 }
 
 button {
+  animation: float 2000ms infinite alternate-reverse;
   transition: all 300ms; /* to transition all of the properties in the element */
 }
 
 button:hover {
   background-color: black;
   color: white;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0); /* one direction, up & down on the Y axis */
+  }
+  100% {
+    transform: translateY(10px);
+  }
 }
