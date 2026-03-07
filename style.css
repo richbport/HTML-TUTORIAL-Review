@@ -7,7 +7,7 @@ div:hover{
 }
 
 button {
-  animation: float 2000ms infinite alternate-reverse;
+  animation: float 2000ms 3 alternate-reverse;
   transition: all 300ms; /* to transition all of the properties in the element */
 }
 
