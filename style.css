@@ -21,6 +21,6 @@ button:hover {
     transform: translateY(0); /* one direction, up & down on the Y axis */
   }
   100% {
-    transform: translateY(10px);
+    transform: translate(10px, 10px);
   }
 }
