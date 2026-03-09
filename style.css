@@ -1,26 +1,3 @@
-div{
-  transition: background-color 300ms;
-}
-
-div:hover{
-  background-color: rgba(0, 0, 0, 0.5)
-}
-
-button {
-  animation: float 2000ms 3 alternate-reverse;
-  transition: all 300ms; /* to transition all of the properties in the element */
-}
-
-button:hover {
-  background-color: black;
-  color: white;
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(0); /* one direction, up & down on the Y axis */
-  }
-  100% {
-    transform: translate(10px, 10px);
-  }
+.nav__link--active {
+  color: black;
 }
