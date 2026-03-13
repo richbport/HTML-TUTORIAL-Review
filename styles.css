@@ -13,8 +13,8 @@
 
 .box-wrapper {
   width: 45%;
-  display: flex;
-  flex-direction: column;
+  display: flex; /* display block would do the same thing as df and flex-direction: column; but can't invoke other properties with display: block default */
+  flex-direction: column; 
 }
 
 .box {
