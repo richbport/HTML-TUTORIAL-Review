@@ -6,10 +6,13 @@
 
 .container {
   border: 4px solid lightgray;
-  padding: 24px 24px 0 24px;
+  padding: 24px 24px 24px 24px;
 }
 
 .row {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto -24px auto; /* top, right, bottom, left */
   display: flex;
   justify-content: space-between;
 
@@ -21,12 +24,23 @@
   flex-direction: column; 
 }
 
+
 .box {
   border: 4px solid lightgray ;
   margin-bottom: 24px;
 }
 
 .box-small {
+  height: 50px;
+}
+
+.tiny-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-tiny {
+  width: 30%;
   height: 50px;
 }
 
