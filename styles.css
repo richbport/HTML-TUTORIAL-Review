@@ -9,7 +9,11 @@
   padding: 24px 24px 0 24px;
 }
 
+.row {
+  display: flex;
+  justify-content: space-between;
 
+}
 
 .box-wrapper {
   width: 45%;
