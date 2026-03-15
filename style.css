@@ -34,3 +34,8 @@ li {
 .logo {
   width: 300px;
 }
+
+header {
+  background-color: #eadcff;
+  height: calc(100vh - 70px);
+}
