@@ -16,6 +16,21 @@ nav {
   background-color: #cafdff;
 }
 
+a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+ul {
+  display: flex;  /* The list items inside ul didn't need to be inside of a div to lay out sideways */
+}
+
+li {
+  list-style-type: none;
+  padding-left: 16px;
+}
+
 .logo {
   width: 300px;
 }
