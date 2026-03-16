@@ -103,3 +103,14 @@ img {
 .section__description--wrapper {
   width: 60%; /* text is 60% of the total width of both the text and the figure */
 }
+
+.section__description--wrapper,
+.about__image--wrapper {
+  padding: 0 24px;
+}
+
+.section__description--para {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
