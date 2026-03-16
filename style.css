@@ -85,3 +85,13 @@ h2 {
   text-align: center;
   margin-bottom: 24px;
 }
+
+.section__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__image--wrapper {
+  width: 40%; /* image is 40% of the total width of both the text and the figure */
+}
