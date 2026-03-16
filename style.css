@@ -55,7 +55,8 @@ header {
 
 #about,
 #discord,
-#contact {
+#contact,
+footer {
   padding: 48px 0;
 }
 
@@ -159,4 +160,23 @@ textarea {
 Footer
   */
 
-  
+footer {
+  background-color: #aaf5ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo {
+  max-width: 480px;
+  margin-bottom: 16px;
+}
+
+.footer__links {
+  margin-bottom: 32px;
+}
+
+.footer__link {
+  padding: 0 16px;
+}
+
