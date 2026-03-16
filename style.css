@@ -47,7 +47,7 @@ header {
 
 .row {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1300px; /* Here's the trick. We're CAPPING the maximum width. */
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -65,9 +65,9 @@ h1 {
 
 button {
   background-color: #05c7cf;
-  color: white;
+  color: white; /* color of the text inside the button */
   border: none;
   padding: 8px 16px;
   font-size: 24px;
-  cursor: pointer;
+  cursor: pointer; /* cursor: pointer is not a default for a button */
 }
