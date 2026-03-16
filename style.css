@@ -104,7 +104,7 @@ img {
   width: 60%; /* text is 60% of the total width of both the text and the figure */
 }
 
-.section__description--wrapper,
+.section__description--wrapper, /* targeting two different classes at one time */
 .about__image--wrapper {
   padding: 0 24px;
 }
@@ -114,3 +114,9 @@ img {
   line-height: 1.5;
   margin-bottom: 24px;
 }
+
+/* 
+Discord
+ */
+
+ 
