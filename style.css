@@ -53,6 +53,12 @@ header {
   justify-content: center;
 }
 
+#about,
+#discord,
+#contact {
+  padding: 48px 0;
+}
+
 h1 {
   font-size: 72px;
 }
@@ -76,7 +82,6 @@ About
 */
 
 #about {
-  padding: 48px 0;
   background-color: #f8ffdc;
 }
 
@@ -119,4 +124,7 @@ img {
 Discord
  */
 
- 
+#discord {
+  background-color: #cefeff;
+}
+
