@@ -35,7 +35,6 @@ li {
   width: 300px;
 }
 
-
 header {
   background-color: #eadcff;
   height: calc(100vh - 70px);
@@ -68,6 +67,14 @@ button {
   color: white; /* color of the text inside the button */
   border: none;
   padding: 8px 16px;
-  font-size: 24px;
+  font-size: 24px; 
   cursor: pointer; /* cursor: pointer is not a default for a button */
+}
+
+/* 
+About 
+*/
+
+#about {
+  
 }
