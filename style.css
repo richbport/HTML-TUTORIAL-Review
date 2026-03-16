@@ -95,3 +95,11 @@ h2 {
 .about__image--wrapper {
   width: 40%; /* image is 40% of the total width of both the text and the figure */
 }
+
+img {
+  width: 100%;
+}
+
+.section__description--wrapper {
+  width: 60%; /* text is 60% of the total width of both the text and the figure */
+}
