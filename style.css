@@ -180,3 +180,35 @@ footer {
   padding: 0 16px;
 }
 
+/* 
+Responsiveness
+ */
+
+@media (max-width: 728px) { /* Small phones, tablets, large smartphones */
+  .row {
+    flex-direction: column;
+  }
+
+  .home__description {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 60px;
+  }
+
+  .subheader {
+    text-align: center;
+  }
+
+  .home__description--button {
+    width: 100%;
+    max-width: 240px;
+  }
+
+}
+
