@@ -226,5 +226,26 @@ Responsiveness
     width: 100%; /* was 40% of the width at >728px */
     padding: 24px 8px;
   }
+
+  #discord .section__description {
+    flex-direction: column-reverse; /* puts discord image on top of the p tags instead of below them, like in the about section */
+  }
+
+  footer {
+    padding: 48px 24px; /* padding in from the sides (this was 48px 0 before), makes the image smaller if we don't hard code it. Use % values. You're always better off using % values */
+  }
+
+  .footer__logo {
+    max-width: 360px;
+  }
+
+  .footer__link {
+    padding: 0 8px;
+    font-size: 18px;
+  }
+
+  .footer__links {
+    margin-bottom: 24px;
+  }
 }
 
