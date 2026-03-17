@@ -185,6 +185,10 @@ Responsiveness
  */
 
 @media (max-width: 728px) { /* Small phones, tablets, large smartphones */
+  header {
+    height: 120vh;
+  }
+  
   .row {
     flex-direction: column;
   }
