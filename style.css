@@ -210,5 +210,21 @@ Responsiveness
     max-width: 240px;
   }
 
+  ul { /* the ul items in the nav bar will disapear */
+    display: none; 
+  }
+
+  .section__description { /* target sections that were df before, and make them flex-direction: column; */
+    flex-direction: column;
+  }
+
+  .section__description--wrapper { /* wrapped just the p tags, which were 60% of the width at >728px */
+    width: 100%;
+  }
+
+  .about__image--wrapper {
+    width: 100%; /* was 40% of the width at >728px */
+    padding: 24px 8px;
+  }
 }
 
