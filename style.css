@@ -206,16 +206,21 @@ Responsiveness
   }
 
   .home__description--button {
-    width: 100%;
     max-width: 240px;
+    font-size: 20px;
   }
 
+  
   ul { /* the ul items in the nav bar will disapear */
     display: none; 
   }
-
+  
   .section__description { /* target sections that were df before, and make them flex-direction: column; */
     flex-direction: column;
+  }
+  
+  img {
+    width: 100%;
   }
 
   .section__description--wrapper { /* wrapped just the p tags, which were 60% of the width at >728px */
